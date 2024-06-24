@@ -43,15 +43,16 @@ function draw() {
  
   noStroke();
   textStyle (NORMAL);
-  text("Prosimy nie wychodzić poza pole", width / 2, rectY - 20);
+  text("Miejsce na czytelny podpis. Prosimy nie wychodzić poza pole ramki.", width / 2, rectY - 30);
 
   fill(0);
   textStyle (BOLDITALIC);
-  text("Miejsce na czytelny podpis", width / 2, rectY - 50);
+  textSize(27);
+  text("Podpisz formularz", width/2, 300);
 
   fill(245);
-  stroke(0, 0, 0); // Czerwona ramka
-  strokeWeight(3);
+  stroke(200); // Czerwona ramka
+  strokeWeight(2);
   rect(rectX, rectY, 600, 100); // Ramka pola do podpisania
 
   stroke(0);
