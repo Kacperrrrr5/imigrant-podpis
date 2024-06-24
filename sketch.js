@@ -64,7 +64,7 @@ function draw() {
   endShape();
   
   drawButton(button1X, buttonY, buttonWidth, buttonHeight, "Cofnij", '#FFB3B3');
-  drawButton(button2X, buttonY, buttonWidth, buttonHeight, "Dalej", '#E30613');
+  drawButton(button2X, buttonY, buttonWidth, buttonHeight, "Wyślij", '#E30613');
 }
 
 function mousePressed() {
@@ -76,7 +76,7 @@ function mousePressed() {
   }
   
    if (isMouseOver(button2X, buttonY, buttonWidth, buttonHeight)) {
-    window.open('https://www.wp.pl', '_self');
+    window.open('https://kacperrrrr5.github.io/imigrant-wyslij/', '_self');
   }
   
 }
